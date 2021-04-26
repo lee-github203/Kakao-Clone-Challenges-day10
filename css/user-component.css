@@ -1,0 +1,77 @@
+.user-component__icon div:hover {
+  background-color: gray;
+  color: white;
+}
+
+.user-component,
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.user-component__avatar {
+  width: 320px;
+  height: 500px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.user-component__one {
+  text-decoration: none;
+}
+
+.user-component__title {
+  font-weight: 600;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+  margin-top: 8px;
+  font-size: 17px;
+  margin-bottom: 30px;
+}
+
+.user-component__icons {
+  margin-bottom: 30px;
+}
+
+.user-component__icons__stars {
+  color: #ffce33;
+}
+
+.user-component__icon {
+  margin-top: 40px;
+  display: flex;
+  border-style: outset;
+}
+
+.user-component__icon1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  border-style: outset;
+  width: 150px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.user-component__icon2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 2px solid white;
+  border-style: outset;
+  width: 300px;
+  height: 35px;
+  margin-right: 15px;
+}
+
+.user-component__span {
+  font-size: 18px;
+}

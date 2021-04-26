@@ -1,0 +1,58 @@
+/*body {
+  font-family: 'Playfair Display', serif;
+  font-weight: 900;
+}*/
+
+body {
+  background-color: whitesmoke;
+}
+
+.book-dream {
+  display: flex;
+  align-items: center;
+  margin: 20px 90px;
+}
+
+.book-dream__title {
+  font-size: 50px;
+  margin-right: 20px;
+  color: #edeb62;
+  font-weight: 600;
+}
+
+.book-dream__subtitle {
+  font-size: 30px;
+  margin-right: 10px;
+}
+
+.dream {
+  margin-top: 50px;
+  margin-left: 70px;
+}
+
+.dream-book {
+  display: flex;
+  justify-content: center;
+}
+
+.dream-book__avatar {
+  width: 260px;
+  height: 400px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+.dream__text {
+  align-items: center;
+}
+
+.dream__title {
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.dream__subtitle {
+  font-weight: 400;
+  margin-right: 100px;
+}

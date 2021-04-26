@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+}
+
+.library-header {
+  padding: 30px 20px;
+  margin: 10px 20px -23px 20px;
+  border-radius: 10px;
+  background-color: #ffce33;
+  display: flex;
+  justify-content: space-between;
+  //position: relative;
+}
+
+.library-header__title {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.box-center input {
+  padding: 15px 300px;
+  border-radius: 10px;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  padding-top: -200px;
+  margin: 0px 0px;
+  border-radius: 10px;
+}
+
+.search-box {
+  border: 1px solid gray;
+}
+
+.search-books {
+  background-color: white;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.day {
+  font-size: 30px;
+  margin-top: 30px;
+  margin-left: 55px;
+}
